@@ -11,7 +11,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.DefaultResponseErrorHandler;
 import org.springframework.web.client.RestTemplate;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.URL;
 
 @SpringBootApplication
 public class WeatherAppUtilityApplication {
@@ -41,8 +45,8 @@ public class WeatherAppUtilityApplication {
         //WeatherData [] weatherData = restTemplate.getForObject("http://localhost:3000/data", WeatherData[].class);
 
         //To store api response to a file
-        ObjectMapper objectMapper = new ObjectMapper();
-        objectMapper.writeValue(new File("./src/main/resources/testWeatherInput.json"),weatherData);
+        //ObjectMapper objectMapper = new ObjectMapper();
+        //objectMapper.writeValue(new File(getClass().getResource("/testWeatherInput.json").getPath()),weatherData);
 
         log.info(weatherData.toString());
 
