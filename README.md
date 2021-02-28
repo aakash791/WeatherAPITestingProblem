@@ -4,6 +4,36 @@ Navigate to directory:- WeatherAPITestingProblem/out/artifacts/WeatherAppUtility
 
 Type command to run Weather Application:- java -jar WeatherAppUtility.jar
 
+Possible Output:-
+
+Today's Date: 2021-03-01
+ Day: 2021-03-04
+Forecasted temperature at 06:00:00:= 20.37 degree Celsius
+Maximum Temperature: 20.37 degree Celsius
+Minimum Temperature: 20.37 degree Celsius
+Feels Like Temperature: 18.21 degree Celsius
+
+------------------------------------------------------------
+
+ Day: 2021-03-05
+Forecasted temperature at 06:00:00:= 20.26 degree Celsius
+Maximum Temperature: 20.26 degree Celsius
+Minimum Temperature: 20.26 degree Celsius
+Feels Like Temperature: 16.2 degree Celsius
+
+------------------------------------------------------------
+
+Total days where temperature was more than 20.0 degree Celsius:- 2
+
+Today's Date: 2021-03-01
+---------------------------------------------------------------------------
+Following days after today have been predicted of having sunny days:- 
+-------------------------------------------------------------------------
+
+2021-03-04 => Weather will be sunny with clear sky after 21:00:00 on this day
+
+Total days having sunny weather:- 1
+
 # Assumptions & Requirements:
 
 City -> Sydney
